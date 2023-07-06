@@ -1,6 +1,15 @@
 {
   "input": [
     {
+      "type": "v2rayGeoIPDat",
+      "action": "add",
+      "args": {
+        "uri": "https://raw.githubusercontent.com/Loyalsoldier/geoip/release/geoip.dat",
+        "onlyIPType": "ipv6"
+      }
+    },
+    
+    {
       "type": "text",
       "action": "add",
       "args": {
@@ -18,7 +27,8 @@
         "onlyIPType": "ipv6"
       }
     },
-
+    
+    
     {
       "type": "private",
       "action": "add"
