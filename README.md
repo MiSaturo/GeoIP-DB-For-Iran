@@ -31,12 +31,12 @@ Use the reference configuration of this project's `.dat` format file in [V2Ray](
        "type": "field",
        "outboundTag": "Direct",
        "ip": [
-         "geoip:cn",
+         "geoip:ir",
          "geoip:private",
-         "ext:cn.dat:cn",
+         "ext:ir.dat:ir",
          "ext:private.dat:private",
-         "ext:geoip-only-cn-private.dat:cn",
-         "ext:geoip-only-cn-private.dat:private"
+         "ext:geoip-only-ir-private.dat:ir",
+         "ext:geoip-only-ir-private.dat:private"
        ]
      },
      {
@@ -81,20 +81,20 @@ Use the reference configuration of this project's `.mmdb` format file in [Leaf](
 - **geoip.dat.sha256sum**:
    - [https://raw.githubusercontent.com/MiSaturo/GeoIP-DB-For-Iran/release/geoip.dat.sha256sum](https://raw.githubusercontent.com/MiSaturo/GeoIP-DB-For-Iran/release/geoip.dat.sha256sum)
    - [https://cdn.jsdelivr.net/gh/MiSaturo/GeoIP-DB-For-Iran@release/geoip.dat.sha256sum](https://cdn.jsdelivr.net/gh/MiSaturo/GeoIP-DB-For-Iran@release/geoip.dat.sha256sum )
-- **geoip-only-cn-private.dat** (Lite version of GeoIP, only contains `geoip:cn` and `geoip:private`):
-   - [https://raw.githubusercontent.com/MiSaturo/GeoIP-DB-For-Iran/release/geoip-only-cn-private.dat](https://raw.githubusercontent.com/MiSaturo/GeoIP-DB-For-Iran/release/geoip-only-cn -private.dat)
-   - [https://cdn.jsdelivr.net/gh/MiSaturo/GeoIP-DB-For-Iran@release/geoip-only-cn-private.dat](https://cdn.jsdelivr.net/gh/MiSaturo/GeoIP-DB-For-Iran@release/geoip -only-cn-private.dat)
-- **geoip-only-cn-private.dat.sha256sum**:
-   - [https://raw.githubusercontent.com/MiSaturo/GeoIP-DB-For-Iran/release/geoip-only-cn-private.dat.sha256sum](https://raw.githubusercontent.com/MiSaturo/GeoIP-DB-For-Iran/release/geoip-only -cn-private.dat.sha256sum)
-   - [https://cdn.jsdelivr.net/gh/MiSaturo/GeoIP-DB-For-Iran@release/geoip-only-cn-private.dat.sha256sum](https://cdn.jsdelivr.net/gh/MiSaturo/GeoIP-DB-For-Iran@release /geoip-only-cn-private.dat.sha256sum)
+- **geoip-only-ir-private.dat** (Lite version of GeoIP, only contains `geoip:ir` and `geoip:private`):
+   - [https://raw.githubusercontent.com/MiSaturo/GeoIP-DB-For-Iran/release/geoip-only-ir-private.dat](https://raw.githubusercontent.com/MiSaturo/GeoIP-DB-For-Iran/release/geoip-only-ir-private.dat)
+   - [https://cdn.jsdelivr.net/gh/MiSaturo/GeoIP-DB-For-Iran@release/geoip-only-ir-private.dat](https://cdn.jsdelivr.net/gh/MiSaturo/GeoIP-DB-For-Iran@release/geoip-only-ir-private.dat)
+- **geoip-only-ir-private.dat.sha256sum**:
+   - [https://raw.githubusercontent.com/MiSaturo/GeoIP-DB-For-Iran/release/geoip-only-ir-private.dat.sha256sum](https://raw.githubusercontent.com/MiSaturo/GeoIP-DB-For-Iran/release/geoip-only-ir-private.dat.sha256sum)
+   - [https://cdn.jsdelivr.net/gh/MiSaturo/GeoIP-DB-For-Iran@release/geoip-only-ir-private.dat.sha256sum](https://cdn.jsdelivr.net/gh/MiSaturo/GeoIP-DB-For-Iran@release /geoip-only-ir-private.dat.sha256sum)
 - **geoip-asn.dat** (Lite version of GeoIP, containing only the above added categories):
    - [https://raw.githubusercontent.com/MiSaturo/GeoIP-DB-For-Iran/release/geoip-asn.dat](https://raw.githubusercontent.com/MiSaturo/GeoIP-DB-For-Iran/release/geoip-asn.dat)
    - [https://cdn.jsdelivr.net/gh/MiSaturo/GeoIP-DB-For-Iran@release/geoip-asn.dat](https://cdn.jsdelivr.net/gh/MiSaturo/GeoIP-DB-For-Iran@release/geoip-asn.dat )
 - **geoip-asn.dat.sha256sum**:
    - [https://raw.githubusercontent.com/MiSaturo/GeoIP-DB-For-Iran/release/geoip-asn.dat.sha256sum](https://raw.githubusercontent.com/MiSaturo/GeoIP-DB-For-Iran/release/geoip-asn.dat.sha256sum )
    - [https://cdn.jsdelivr.net/gh/MiSaturo/GeoIP-DB-For-Iran@release/geoip-asn.dat.sha256sum](https://cdn.jsdelivr.net/gh/MiSaturo/GeoIP-DB-For-Iran@release/geoip-asn .dat.sha256sum)
-- **cn.dat** (Lite version of GeoIP, contains only `geoip:cn`):
-   - [https://raw.githubusercontent.com/MiSaturo/GeoIP-DB-For-Iran/release/cn.dat](https://raw.githubusercontent.com/MiSaturo/GeoIP-DB-For-Iran/release/cn.dat)
-   - [https://cdn.jsdelivr.net/gh/MiSaturo/GeoIP-DB-For-Iran@release/cn.dat](https://cdn.jsdelivr.net/gh/MiSaturo/GeoIP-DB-For-Iran@release/cn.dat)
-- **cn.dat.sha256sum**:
+- **ir.dat** (Lite version of GeoIP, contains only `geoip:ir`):
+   - [https://raw.githubusercontent.com/MiSaturo/GeoIP-DB-For-Iran/release/ir.dat](https://raw.githubusercontent.com/MiSaturo/GeoIP-DB-For-Iran/release/ir.dat)
+   - [https://cdn.jsdelivr.net/gh/MiSaturo/GeoIP-DB-For-Iran@release/ir.dat](https://cdn.jsdelivr.net/gh/MiSaturo/GeoIP-DB-For-Iran@release/ir.dat)
+- **ir.dat.sha256sum**:
    - [https://raw.githubusercontent.com/Loyalsoldier/g
